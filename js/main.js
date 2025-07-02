@@ -3,9 +3,9 @@ document.getElementById ('contact-form').addEventListener
     e.preventDefault();
 
     const name = document.getElementById('name').Value();
-    const phone = document.getElementById('number').value();
+    const email = document.getElementById('email').value();
 
-    if (!name || !phone)
+    if (!name || !email)
     {
         alert('Please fill in all fields.');
         return;
